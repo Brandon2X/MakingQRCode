@@ -35,6 +35,11 @@ color: grey;
     text-align: center;
 }
 
+.container {
+    max-width: 50%; /* Set a smaller max-width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    
+}
 
 
 
