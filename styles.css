@@ -5,10 +5,16 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: grey;
 }
 
 .container {
+    position: relative;
     text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    background-color: white;
+    cursor: grab;
 }
 
 .container img {
@@ -16,13 +22,24 @@ body {
     margin: 0 auto;
 }
 
-h2 {
-
-    color: grey
-
-
-
-
-
-
+.container h1 {
+    margin: 10px 0;
+    color: black;
 }
+
+.container h2 {
+    margin: 10px 0;
+    color: grey;
+}
+
+/* Additional styling for better readability */
+.container h1, .container h2 {
+    width: 80%;
+}
+
+
+
+
+
+
+
